@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gunpowder"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "tns8:gunpowder_sand",
+            "tns8:gunpowder_gravel"
+        ]
+    }
+}
