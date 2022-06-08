@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1187426427,-1650310419,-1666282231,-1927655400],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NDY4MTg2MzQ0MywKICAicHJvZmlsZUlkIiA6ICJiOTM5NGY4NTlkYTI0MmVkOWNhZThkMDk4ZDFhNTAxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2U2hhcnBpZXMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJiMzg5NzBhMTEyMGJiZjMzNzllMmMzZjdkZjJkNGJkMTY1ZWZiYmRmN2M0NTRiNGI4MTdjMGRhNDFiOTc0YyIKICAgIH0KICB9Cn0=\"}]}}}"
+        },
+        "title": "Was that Sharp?",
+        "description": "Get struck by lightning"
+    },
+    "parent": "minecraft:adventure/lightning_rod_with_villager_no_fire",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:lightning_strike",
+            "conditions": {
+                "lightning": {
+                    "distance": {
+                        "absolute": {
+                            "max": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 3
+    }
+}
+
+/give @p minecraft:player_head{display:{Name:"{\"text\":\"Brownstone Tile\"}"},SkullOwner:{Id:[I;1625875104,-523286335,-1873897551,-1163948078],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmODI5Mzc1YzI2NTgwMDkyMTM1MzE4MmNhNjA1MGUyMmM1N2M4MWI3ZjMyNDhhOWEyM2Y2ZmM5MDJkNmJiNiJ9fX0="}]}}} 1
