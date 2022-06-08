@@ -1,0 +1,4 @@
+*.code-workspace
+*.zip
+vanilla_worldgen/
+*.pyc
