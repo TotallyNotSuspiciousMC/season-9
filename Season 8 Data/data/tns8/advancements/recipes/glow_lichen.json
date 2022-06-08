@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:vine"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "tns8:glow_lichen"
+        ]
+    }
+}

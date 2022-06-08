@@ -2,28 +2,28 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
-            "tag": "tns7:crafting/gravel_craftable"
+            "tag": "tns8:crafting/gravel_craftable"
         },
         {
             "item": "minecraft:gunpowder"
