@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tns8:load"
+        "tns8:load",
+        "tns8:translate/load"
     ]
 }
