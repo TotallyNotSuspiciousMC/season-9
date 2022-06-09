@@ -1,10 +1,11 @@
 # Totally Not Suspicious Season 8 Custom Datapacks
 
-This repo contains three custom datapacks:
+This repo contains three custom datapacks and one resource pack:
 
 * **Season 8 Data**: Basic data changes such as recipes, loot tables, and advancements.
 * **Season 8 Worldgen**: Changes to world generation such as new dimensions.
 * **Swampier Swamps**: Specific worldgen changes for swamps.
+* **Season 8 Resource Pack**: Custom item textures and models for Season 8.
 
 # Lantern Load
 
