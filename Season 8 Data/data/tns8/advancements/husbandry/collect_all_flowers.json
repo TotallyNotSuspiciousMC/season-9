@@ -1,4 +1,5 @@
 {
+    "parent": "minecraft:husbandry/root",
     "display": {
         "icon": {
             "item": "minecraft:rose_bush"
@@ -11,6 +12,30 @@
         "hidden": false
     },
     "criteria": {
+        "collect_flowering_azalea": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:flowering_azalea"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_spore_blossom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spore_blossom"
+                        ]
+                    }
+                ]
+            }
+        },
         "collect_rose_bush": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
@@ -18,6 +43,42 @@
                     {
                         "items": [
                             "minecraft:rose_bush"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_peony": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:peony"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_sunflower": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:sunflower"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_lilac": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lilac"
                         ]
                     }
                 ]
@@ -34,14 +95,212 @@
                     }
                 ]
             }
+        },
+        "collect_dandelion": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:dandelion"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_poppy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:poppy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_blue_orchid": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:blue_orchid"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_allium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:allium"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_azure_bluet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:azure_bluet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_red_tulip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:red_tulip"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_orange_tulip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:orange_tulip"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_white_tulip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_tulip"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_pink_tulip": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:pink_tulip"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_oxeye_daisy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:oxeye_daisy"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_cornflower": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cornflower"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_lily_of_the_valley": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lily_of_the_valley"
+                        ]
+                    }
+                ]
+            }
         }
     },
     "requirements": [
+        [
+            "collect_flowering_azalea"
+        ],
+        [
+            "collect_spore_blossom"
+        ],
         [
             "collect_rose_bush"
         ],
         [  
             "collect_wither_rose"
+        ],
+        [  
+            "collect_lily_of_the_valley"
+        ],
+        [  
+            "collect_peony"
+        ],
+        [  
+            "collect_sunflower"
+        ],
+        [  
+            "collect_lilac"
+        ],
+        [  
+            "collect_dandelion"
+        ],
+        [  
+            "collect_poppy"
+        ],
+        [  
+            "collect_blue_orchid"
+        ],
+        [  
+            "collect_allium"
+        ],
+        [  
+            "collect_azure_bluet"
+        ],
+        [  
+            "collect_red_tulip"
+        ],
+        [  
+            "collect_orange_tulip"
+        ],
+        [  
+            "collect_white_tulip"
+        ],
+        [  
+            "collect_pink_tulip"
+        ],
+        [  
+            "collect_oxeye_daisy"
+        ],
+        [  
+            "collect_cornflower"
+        ],
+        [  
+            "collect_lily_of_the_valley"
         ]
     ]
 }
