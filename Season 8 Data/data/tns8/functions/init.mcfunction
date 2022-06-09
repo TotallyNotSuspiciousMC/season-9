@@ -23,5 +23,6 @@ scoreboard players set EB_Timetraveller tns8.gets_free_shulker 1
 scoreboard players set LeeMohr tns8.gets_free_shulker 1
 scoreboard players set Dockers_Forever tns8.gets_free_shulker 1
 scoreboard players set Cloudseses tns8.gets_free_shulker 1
+scoreboard players set Morsz tns8.gets_free_shulker 1
 
 scoreboard players set #begin_shulker_distr tns8.gets_free_shulker 0
