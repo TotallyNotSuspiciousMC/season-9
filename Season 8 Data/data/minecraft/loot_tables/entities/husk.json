@@ -98,27 +98,8 @@
                         {
                             "condition": "minecraft:inverted",
                             "term": {
-                                "condition": "minecraft:alternative",
-                                "terms": [
-                                    {
-                                        "condition": "minecraft:location_check",
-                                        "predicate": {
-                                            "biome": "minecraft:wooded_badlands"
-                                        }
-                                    },
-                                    {
-                                        "condition": "minecraft:location_check",
-                                        "predicate": {
-                                            "biome": "minecraft:eroded_badlands"
-                                        }
-                                    },
-                                    {
-                                        "condition": "minecraft:location_check",
-                                        "predicate": {
-                                            "biome": "minecraft:badlands"
-                                        }
-                                    }
-                                ]
+                                "condition": "minecraft:reference",
+                                "name": "tns8:in_badlands"
                             }
                         }
                     ]
@@ -142,27 +123,8 @@
                     ],
                     "conditions": [
                         {
-                            "condition": "minecraft:alternative",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "biome": "minecraft:badlands"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "biome": "minecraft:eroded_badlands"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:location_check",
-                                    "predicate": {
-                                        "biome": "minecraft:wooded_badlands"
-                                    }
-                                }
-                            ]
+                            "condition": "minecraft:reference",
+                            "name": "tns8:in_badlands"
                         }
                     ]
                 }
