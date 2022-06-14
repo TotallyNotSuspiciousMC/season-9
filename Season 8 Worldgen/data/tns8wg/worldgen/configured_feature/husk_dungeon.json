@@ -2,7 +2,7 @@
     "config": {
         "fossil_processors": "tns8wg:monster_room",
         "overlay_processors": "tns8wg:monster_room_moss",
-        "max_empty_corners_allowed": 7,
+        "max_empty_corners_allowed": 4,
         "fossil_structures": [
             "tns8wg:overworld/husk_dungeon_base"
         ],
