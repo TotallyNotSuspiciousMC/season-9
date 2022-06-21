@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:knowledge_book",
+                    "name": "minecraft:carved_pumpkin",
                     "functions": [
                         {
                             "function": "minecraft:copy_nbt",
@@ -37,7 +37,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1b}"
+                            "tag": "{CustomModelData:1}"
                         }
                     ]
                 }
