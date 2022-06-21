@@ -2,7 +2,7 @@
     "feature": "tns8wg:husk_dungeon",
     "placement": [
         {
-            "chance": 50,
+            "chance": 100,
             "type": "minecraft:rarity_filter"
         },
         {
