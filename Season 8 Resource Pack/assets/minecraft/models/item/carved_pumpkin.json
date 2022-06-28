@@ -6,6 +6,12 @@
                 "custom_model_data": 1
             },
             "model": "tns8:item/hats/crown"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "tns8:item/hats/cowboy_hat"
         }
     ]
 }
