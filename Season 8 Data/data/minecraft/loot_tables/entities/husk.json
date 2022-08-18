@@ -82,12 +82,16 @@
                     "name": "minecraft:sand",
                     "functions": [
                         {
-                            "function": "minecraft:looting_enchant",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
+                                "min": 1,
+                                "max": 3
                             }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": 1
                         }
                     ],
                     "conditions": [
@@ -105,12 +109,16 @@
                     "name": "minecraft:red_sand",
                     "functions": [
                         {
-                            "function": "minecraft:looting_enchant",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
+                                "min": 1,
+                                "max": 3
                             }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": 1
                         }
                     ],
                     "conditions": [
@@ -123,9 +131,8 @@
             ],
             "conditions": [
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.5,
-                    "looting_multiplier": 0.03
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
                 }
             ]
         },
