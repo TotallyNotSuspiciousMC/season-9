@@ -1,0 +1,11 @@
+{
+	"parent": "item/template_spawn_egg",
+	"textures": {
+		"layer0": "item/spawn_egg"
+	},
+	
+	"overrides": [
+		{ "predicate": {"custom_model_data": 92643180}, "model": "item/amethyst_bottle"}
+	]
+	
+}
