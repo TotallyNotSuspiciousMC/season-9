@@ -1,0 +1,14 @@
+{
+    "config": {
+        "fossil_processors": "tns.wg:monster_room",
+        "overlay_processors": "tns.wg:monster_room_moss",
+        "max_empty_corners_allowed": 4,
+        "fossil_structures": [
+            "tns.wg:overworld/husk_dungeon_base"
+        ],
+        "overlay_structures": [
+            "tns.wg:overworld/husk_dungeon_mossy"
+        ]
+    },
+    "type": "minecraft:fossil"
+}

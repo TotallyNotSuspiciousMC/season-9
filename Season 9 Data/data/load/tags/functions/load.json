@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tns:load",
+        "tns:translate/load"
+    ]
+}
