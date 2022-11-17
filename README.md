@@ -1,4 +1,4 @@
-# Totally Not Suspicious Season 8 Custom Datapacks
+# Totally Not Suspicious Season 9 Custom Datapacks
 
 This repo contains three custom datapacks and one resource pack:
 
