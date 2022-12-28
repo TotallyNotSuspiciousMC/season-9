@@ -15,7 +15,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.item.scorrium_pickaxe.lore",
+                                    "source": "current.item.scorrium_pickaxe.lore",
                                     "target": "display.Lore",
                                     "op": "append"
                                 }
@@ -29,7 +29,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.item.scorrium_pickaxe.name",
+                                    "source": "current.item.scorrium_pickaxe.name",
                                     "target": "display.Name",
                                     "op": "replace"
                                 }

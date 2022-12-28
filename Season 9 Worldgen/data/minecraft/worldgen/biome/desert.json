@@ -120,8 +120,8 @@
         [
             "minecraft:fossil_upper",
             "minecraft:fossil_lower",
-            "tns8wg:husk_dungeon",
-            "tns8wg:husk_dungeon_deep"
+            "tns.wg:husk_dungeon",
+            "tns.wg:husk_dungeon_deep"
         ],
         [
             "minecraft:desert_well"

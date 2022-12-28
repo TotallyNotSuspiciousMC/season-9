@@ -15,7 +15,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.hat.crown.lore",
+                                    "source": "current.hat.crown.lore",
                                     "target": "display.Lore",
                                     "op": "append"
                                 }
@@ -29,7 +29,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.hat.crown.name",
+                                    "source": "current.hat.crown.name",
                                     "target": "display.Name",
                                     "op": "replace"
                                 }

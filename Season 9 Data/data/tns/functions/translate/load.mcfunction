@@ -10,3 +10,8 @@ data modify storage tns.translate en_us.item.scorrium_pickaxe.name set value '[{
 data modify storage tns.translate en_us.item.scorrium_pickaxe.lore set value '[{"text":"Skyrim is the best game of all time", "color":"light_purple"}]'
 data modify storage tns.translate en_us.item.alirum_pickaxe.name set value '[{"text":"Alirum Pickaxe", "color":"dark_red", "italic": false}]'
 data modify storage tns.translate en_us.item.alirum_pickaxe.lore set value '[{"text":"Male feminizer", "color":"red"}]'
+data modify storage tns.translate en_us.message.bad_omen_cleared set value '[{"text": "", "color": "red"},"Your ", {"text": "Bad Omen", "color": "dark_gray", "bold": true}, " effect is still on cool down. It will be available again in ", {"score": {"name": "@s", "objective": "tns.raid_cooldown_seconds"}, "color": "gold", "bold": true}, " seconds!"]'
+
+
+
+data modify storage tns.translate current set from storage tns.translate en_us

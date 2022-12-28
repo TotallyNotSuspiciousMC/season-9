@@ -15,7 +15,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.hat.cowboy_hat.lore",
+                                    "source": "current.hat.cowboy_hat.lore",
                                     "target": "display.Lore",
                                     "op": "append"
                                 }
@@ -29,7 +29,7 @@
                             },
                             "ops": [
                                 {
-                                    "source": "en_us.hat.cowboy_hat.name",
+                                    "source": "current.hat.cowboy_hat.name",
                                     "target": "display.Name",
                                     "op": "replace"
                                 }
