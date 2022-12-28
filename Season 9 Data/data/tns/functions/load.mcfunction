@@ -10,6 +10,6 @@ execute if score init tns.vars matches 1 run function tns:init
 
 scoreboard players set tns load.status 1
 scoreboard players set #20 tns.const 20
-scoreboard players set RAID_COOLDOWN tns.const 12000
+scoreboard players set RAID_COOLDOWN tns.const 24000
 
 schedule function tns:tick 1t replace
