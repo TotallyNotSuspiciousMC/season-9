@@ -12,7 +12,7 @@
       },
       {
         "predicate": {
-            "custom_model_data": 1
+            "custom_model_data": 2
         },
         "model": "tns:item/firestone_rod"
     }
