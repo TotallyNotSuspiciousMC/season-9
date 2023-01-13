@@ -99,7 +99,7 @@
                             "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:reference",
-                                "name": "tns8:in_badlands"
+                                "name": "tns:in_badlands"
                             }
                         }
                     ]
@@ -124,7 +124,7 @@
                     "conditions": [
                         {
                             "condition": "minecraft:reference",
-                            "name": "tns8:in_badlands"
+                            "name": "tns:in_badlands"
                         }
                     ]
                 }
