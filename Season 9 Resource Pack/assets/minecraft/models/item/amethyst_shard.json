@@ -8,7 +8,7 @@
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "tns8:item/glow_crystal"
+            "model": "tns:item/glow_crystal"
         }
     ]
 }

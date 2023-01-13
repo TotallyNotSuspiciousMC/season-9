@@ -8,7 +8,13 @@
           "predicate": {
               "custom_model_data": 1
           },
-          "model": "tns8:item/firestone_pickaxe_head"
-      }
+          "model": "tns:item/firestone_pickaxe_head"
+      },
+      {
+        "predicate": {
+            "custom_model_data": 1
+        },
+        "model": "tns:item/firestone_rod"
+    }
   ]
 }

@@ -5,19 +5,19 @@
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "tns8:item/hats/crown"
+            "model": "tns:item/hats/crown"
         },
         {
             "predicate": {
                 "custom_model_data": 2
             },
-            "model": "tns8:item/hats/cowboy_hat"
+            "model": "tns:item/hats/cowboy_hat"
         },
         {
             "predicate": {
                 "custom_model_data": 3
             },
-            "model": "tns8:item/glare/glare"
+            "model": "tns:item/glare/glare"
         }
     ]
 }

@@ -1,12 +1,14 @@
 {
 	"parent": "item/generated",
 	"textures": {
-	"layer0": "item/amethyst_bottle"
+		"layer0": "item/amethyst_bottle"
 	},
-
 	"overrides": [
-		{ "predicate": {"custom_model_data": 92643180}, "model": "item/panda_spawn_eggr"}
-
+		{
+			"predicate": {
+				"custom_model_data": 92643180
+			},
+			"model": "item/panda_spawn_eggr"
+		}
 	]
-
 }

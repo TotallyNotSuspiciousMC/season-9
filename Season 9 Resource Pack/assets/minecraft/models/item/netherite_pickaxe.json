@@ -8,19 +8,19 @@
             "predicate": {
                 "custom_model_data": 1
             },
-            "model": "tns8:item/scorrium_pickaxe"
+            "model": "tns:item/scorrium_pickaxe"
         },
         {
             "predicate": {
                 "custom_model_data": 2
             },
-            "model": "tns8:item/alirum_pickaxe"
+            "model": "tns:item/alirum_pickaxe"
         },
         {
             "predicate": {
                 "custom_model_data": 3
             },
-            "model": "tns8:item/firestone_pickaxe"
+            "model": "tns:item/firestone_pickaxe"
         }
     ]
 }
