@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carved_pumpkin",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "minecraft:tns.translate"
+                            },
+                            "ops": [
+                                {
+                                    "source": "current.hat.astronaut_helmet.lore",
+                                    "target": "display.Lore",
+                                    "op": "append"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "minecraft:tns.translate"
+                            },
+                            "ops": [
+                                {
+                                    "source": "current.hat.astronaut_helmet.name",
+                                    "target": "display.Name",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:4}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
