@@ -1,0 +1,79 @@
+{
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.underwater.loop",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "additions_sound": {
+            "sound": "minecraft:block.sculk_sensor.clicking_stop",
+            "tick_chance": 0.0111
+        },
+        "music": {
+            "sound": "minecraft:music.under_water",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:glow"
+            },
+            "probability": 0.02
+        },
+        "sky_color": 0,
+        "fog_color": 10518688,
+        "water_color": 11416811,
+        "water_fog_color": 5508218,
+        "grass_color": 5639864,
+        "foliage_color": 11501045
+    },
+    "carvers": {},
+    "features": [
+        [
+            "minecraft:end_island_decorated"
+        ],
+        [
+            "tns.wg:enderius_lake"
+        ],
+        [],
+        [],
+        [
+            "minecraft:end_gateway_return"
+        ],
+        [
+            "tns.wg:disk_obsidian"
+        ],
+        [],
+        [],
+        [
+            "tns.wg:under_enderius_sculk"
+        ],
+        [
+            "minecraft:chorus_plant"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:endermite",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 4
+            }
+        ],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "the_end"
+}
