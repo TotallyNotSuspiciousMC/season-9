@@ -1,0 +1,51 @@
+{
+    "feature": "tns.wg:under_enderius_sculk",
+    "placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 6,
+                    "max_inclusive": 9
+                }
+            }
+		},
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 6,
+            "target_condition": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_fluids",
+                        "offset": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "fluids": [
+                            "minecraft:water"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_block_tag",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "tag": "tns.wg:enderius_lake_replaceable"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

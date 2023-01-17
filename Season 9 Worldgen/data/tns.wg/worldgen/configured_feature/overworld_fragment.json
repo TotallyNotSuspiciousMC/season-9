@@ -1,0 +1,16 @@
+{
+    "config": {
+        "fossil_processors": "tns.wg:monster_room",
+        "overlay_processors": "tns.wg:monster_room_moss",
+        "max_empty_corners_allowed": 7,
+        "fossil_structures": [
+            "tns.wg:overworld_fragment",
+            "tns.wg:overworld_fragment"
+        ],
+        "overlay_structures": [
+            "tns.wg:overworld_fragment_diamond_ore",
+            "tns.wg:overworld_fragment_iron_ore"
+        ]
+    },
+    "type": "minecraft:fossil"
+}
