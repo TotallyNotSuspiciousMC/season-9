@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "tns.wg:enderius_fields",
+        "tns.wg:ender_grove",
+        "tns.wg:petrified_forest",
+        "minecraft:end_barrens"
+    ]
+}
