@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sculk_sensor"
+        },
+        "title": {
+            "text": "Mitey Purple"
+        },
+        "description": {
+            "text": "Go for a swim in an Enderius Pool"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:end/enter_end_gateway",
+    "criteria": {
+        "go_swimming_in_enderius": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:enderius_fields",
+                        "fluid": {
+                            "tag": "minecraft:water"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "go_swimming_in_enderius"
+        ]
+    ]
+}

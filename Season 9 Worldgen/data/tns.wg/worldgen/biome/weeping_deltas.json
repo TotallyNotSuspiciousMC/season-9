@@ -1,0 +1,80 @@
+{
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.soul_sand_valley.loop",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.soul_sand_valley.additions",
+            "tick_chance": 0.01
+        },
+        "music": {
+            "sound": "minecraft:music_disc.13",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:landing_obsidian_tear"
+            },
+            "probability": 0.02
+        },
+        "sky_color": 0,
+        "fog_color": 10518688,
+        "water_color": 4159204,
+        "water_fog_color": 329011,
+        "grass_color": 1344876,
+        "foliage_color": 1549947
+    },
+    "carvers": {},
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "tns.wg:obsidian_delta",
+            "minecraft:end_gateway_return"
+        ],
+        [],
+        [],
+        [
+        ],
+        [
+            "tns.wg:crying_obsidian_column"
+        ],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:ghast",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": [
+            {
+                "type": "minecraft:experience_orb",
+                "weight": 0,
+                "minCount": 1,
+                "maxCount": 2
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "the_end"
+}

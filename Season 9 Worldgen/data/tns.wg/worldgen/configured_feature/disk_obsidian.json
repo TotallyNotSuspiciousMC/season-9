@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+        "state_provider": {
+            "fallback": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:obsidian"
+                }
+            },
+            "rules": []
+        },
+        "target": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+                "minecraft:basalt",
+                "minecraft:smooth_basalt"
+            ]
+        },
+        "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+                "min_inclusive": 3,
+                "max_inclusive": 4
+            }
+        },
+        "half_height": 2
+    }
+}

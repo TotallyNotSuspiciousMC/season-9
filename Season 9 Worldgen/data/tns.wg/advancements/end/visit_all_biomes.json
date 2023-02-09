@@ -1,0 +1,113 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "text": "Getting Around"
+        },
+        "description": {
+            "text": "Visit all of the biomes in The End"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "visit_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:the_end"
+                }
+            }
+        },
+        "visit_highlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:end_highlands"
+                }
+            }
+        },
+        "visit_enderius_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns.wg:enderius_fields"
+                }
+            }
+        },
+        "visit_petrified_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns.wg:petrified_forest"
+                }
+            }
+        },
+        "visit_weeping_deltas": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns.wg:weeping_deltas"
+                }
+            }
+        },
+        "visit_ender_grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns.wg:ender_grove"
+                }
+            }
+        },
+        "visit_end_barrens": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:end_barrens"
+                }
+            }
+        },
+        "visit_phantom_lands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns.wg:phantom_lands"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "visit_highlands"
+        ],
+        [
+            "visit_enderius_fields"
+        ],
+        [
+            "visit_petrified_forest"
+        ],
+        [
+            "visit_weeping_deltas"
+        ],
+        [
+            "visit_ender_grove"
+        ],
+        [
+            "visit_the_end"
+        ],
+        [
+            "visit_end_barrens"
+        ],
+        [
+            "visit_phantom_lands"
+        ]
+    ],
+    "rewards": {
+        "experience": 500
+    }
+}

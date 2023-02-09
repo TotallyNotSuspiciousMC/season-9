@@ -1,0 +1,58 @@
+{
+    "feature": "tns.wg:crying_obsidian_column",
+    "placement": [
+        
+        {
+            "count": 50,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "chance": 10,
+            "type": "minecraft:rarity_filter"
+        },
+        {
+            "count": 100,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "up",
+            "max_steps": 25,
+            "target_condition": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:air"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:end_stone",
+                            "minecraft:crying_obsidian",
+                            "minecraft:blackstone",
+                            "minecraft:basalt",
+                            "minecraft:smooth_basalt",
+                            "minecraft:deepslate"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
