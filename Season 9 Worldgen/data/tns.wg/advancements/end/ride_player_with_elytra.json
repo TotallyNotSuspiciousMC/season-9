@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": "Fly Me To The Moon",
+        "description": "Ride a player that is wearing Elytra",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "ride_player_wearing_elytra": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": {
+                    "vehicle": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "chest": {
+                                "items": [
+                                    "minecraft:elytra"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ride_player_wearing_elytra"
+        ]
+    ]
+}
