@@ -12,7 +12,7 @@
     },
     "criteria": {
         "ride_player_wearing_elytra": {
-            "trigger": "minecraft:started_riding",
+            "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
                     "vehicle": {

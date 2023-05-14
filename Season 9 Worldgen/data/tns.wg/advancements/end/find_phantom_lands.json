@@ -19,8 +19,10 @@
         "visit_phantom_lands": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:phantom_lands"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:phantom_lands"
+                    }
                 }
             }
         }

@@ -19,64 +19,80 @@
         "visit_the_end": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:the_end"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:the_end"
+                    }
                 }
             }
         },
         "visit_highlands": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:end_highlands"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_highlands"
+                    }
                 }
             }
         },
         "visit_enderius_fields": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:enderius_fields"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:enderius_fields"
+                    }
                 }
             }
         },
         "visit_petrified_forest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:petrified_forest"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:petrified_forest"
+                    }
                 }
             }
         },
         "visit_weeping_deltas": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:weeping_deltas"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:weeping_deltas"
+                    }
                 }
             }
         },
         "visit_ender_grove": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:ender_grove"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:ender_grove"
+                    }
                 }
             }
         },
         "visit_end_barrens": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "minecraft:end_barrens"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_barrens"
+                    }
                 }
             }
         },
         "visit_phantom_lands": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "tns.wg:phantom_lands"
+                "player": {
+                    "location": {
+                        "biome": "tns.wg:phantom_lands"
+                    }
                 }
             }
         }
