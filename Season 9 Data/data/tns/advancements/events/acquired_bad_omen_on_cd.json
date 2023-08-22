@@ -16,7 +16,11 @@
                     }
                 ],
                 "effects": {
-                    "minecraft:bad_omen": {}
+                    "minecraft:bad_omen": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
                 }
             }
         }
