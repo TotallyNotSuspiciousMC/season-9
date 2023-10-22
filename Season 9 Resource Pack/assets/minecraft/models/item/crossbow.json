@@ -166,7 +166,7 @@
         },
         {
             "predicate": {
-                "custom_model_data": 1000
+                "custom_model_data": 1
             },
             "model": "tns:item/rinbarrett"
         }
