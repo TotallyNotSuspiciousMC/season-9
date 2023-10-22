@@ -21,6 +21,12 @@
                 "custom_model_data": 3
             },
             "model": "tns:item/firestone_pickaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "tns:item/photonspick"
         }
     ]
 }
