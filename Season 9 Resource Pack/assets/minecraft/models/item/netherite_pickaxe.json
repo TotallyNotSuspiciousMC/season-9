@@ -26,7 +26,7 @@
             "predicate": {
                 "custom_model_data": 4
             },
-            "model": "tns:item/photonspick"
+            "model": "tns:item/photon_pickaxe"
         }
     ]
 }
