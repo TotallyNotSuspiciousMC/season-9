@@ -2,3 +2,4 @@
 *.zip
 vanilla_worldgen/
 *.pyc
+whitelist.json
