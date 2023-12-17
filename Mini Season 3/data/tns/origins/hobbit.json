@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "tns:hobbit_feet",
+        "tns:halfling",
+        "tns:burglar",
+        "tns:six_meals",
+        "tns:underestimated",
+        "tns:potaytoes"
+    ],
+    "icon": {
+        "item": "botania:odin_ring"
+    },
+    "order": 0,
+    "impact": 2,
+    "name": "Hobbit",
+    "description": "A stealthy but resilient Halfing who cannot wear shoes."
+}

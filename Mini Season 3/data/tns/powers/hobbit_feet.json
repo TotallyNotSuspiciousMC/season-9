@@ -1,0 +1,10 @@
+{
+    "type": "origins:restrict_armor",
+    "feet": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "name": "Hobbit Feet",
+    "description": "Your Hobbit feet are too big for shoes!"
+}

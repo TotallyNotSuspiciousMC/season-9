@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "name": "Six Meals per Day",
+    "description": "You'll need to eat twice as often to satisfy your Hobbit appetite",
+    "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 1.0
+    }
+}

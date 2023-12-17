@@ -1,0 +1,38 @@
+{
+    "type": "origins:multiple",
+    "name": "Burglar",
+    "description": "You can see and hide more easily when sneaking in dark places",
+    "vision": {
+        "type": "origins:night_vision",
+        "strength": 0.1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.1
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        }
+    },
+    "invisible": {
+        "type": "origins:invisibility",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:brightness",
+                    "comparison": "<=",
+                    "compare_to": 0.1
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        }
+    }
+}
