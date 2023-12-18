@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "tns:short_and_stocky",
+        "tns:miners_brew",
+        "tns:born_underground",
+        "tns:master_crafter"
+    ],
+    "icon": {
+        "item": "minecraft:iron_pickaxe"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Dwarf",
+    "description": "Born of the mountains, you are short but an expert miner and blacksmith."
+}

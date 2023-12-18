@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_crafting",
+    "name": "Master Crafter",
+    "description": "You have a 25% chance to gain 1 experience point every time you craft something.",
+    "entity_action": {
+        "type": "origins:chance",
+        "action": {
+            "type": "origins:spawn_entity",
+            "entity_type": "minecraft:experience_orb",
+            "tag": "{Value:1}"
+        },
+        "chance": 0.25
+    }
+}

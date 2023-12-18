@@ -4,14 +4,14 @@
         "tns:halfling",
         "tns:burglar",
         "tns:six_meals",
-        "tns:underestimated",
+        "tns:hobbit_hole",
         "tns:potaytoes"
     ],
     "icon": {
         "item": "botania:odin_ring"
     },
     "order": 0,
-    "impact": 2,
+    "impact": 1,
     "name": "Hobbit",
-    "description": "A stealthy but resilient Halfing who cannot wear shoes."
+    "description": "A stealthy Halfing who likes to live underground and cannot wear shoes."
 }
