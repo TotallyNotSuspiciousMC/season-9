@@ -1,0 +1,44 @@
+{
+    "type": "origins:multiple",
+    "name": "Big Boned",
+    "description": "You are much taller than a normal person. You have greater reach and speed, and jump higher.",
+    "size": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "extraorigins:modify_size"
+        ],
+        "scale": 1.5
+    },
+    "step_height": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:step_height"
+        ],
+        "scale": 1.7
+    },
+    "fall_damage": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:falling"
+        ],
+        "scale": 0.75
+    },
+    "attribute_modifiers": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "name": "Origin modifier",
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_total",
+                "value": 1.1
+            }
+        ]
+    },
+    "jump_height": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    }
+}

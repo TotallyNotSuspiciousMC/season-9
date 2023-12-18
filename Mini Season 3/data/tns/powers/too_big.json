@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "name": "Too big",
+    "description": "You are too big to wear anything that provides armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

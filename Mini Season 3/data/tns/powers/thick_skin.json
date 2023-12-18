@@ -1,0 +1,19 @@
+{
+    "type": "origins:attribute",
+    "name": "Thick Skin",
+    "description": "Your unusually thick skin gives you 10 extra hearts, and 10 armor.",
+    "modifiers": [
+        {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 20
+        },
+        {
+            "name": "Origin modifier",
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 10.0
+        }
+    ]
+}

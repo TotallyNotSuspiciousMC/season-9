@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Short and Stocky",
-    "description": "You are half the size of a normal Man. As such, you can't reach as far, and you attack slower but harder.",
+    "description": "You are half the size of a normal Man. As such, you can't reach as far, and you attack slower but hit harder.",
     "height": {
         "type": "extraorigins:modify_size",
         "scale_types": [
@@ -24,7 +24,7 @@
                 "name": "Origin modifier",
                 "attribute": "minecraft:generic.attack_speed",
                 "operation": "addition",
-                "value": -0.25
+                "value": -0.1
             },
             {
                 "name": "Origin modifier",

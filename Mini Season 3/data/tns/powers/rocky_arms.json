@@ -1,0 +1,35 @@
+{
+    "type": "origins:multiple",
+    "name": "Rocky Arms",
+    "description": "Your large arms reach further, hit harder, and knockback enemies. But you attack much slower.",
+    "attribute_modifiers": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "name": "Origin modifier",
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": -0.5
+            },
+            {
+                "name": "Origin modifier",
+                "attribute": "reach-entity-attributes:attack_range",
+                "operation": "addition",
+                "value": 1
+            },
+            {
+                "name": "Origin modifier",
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "addition",
+                "value": 1
+            }
+        ]
+    },
+    "knockback": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:knockback"
+        ],
+        "scale": 2
+    }
+}

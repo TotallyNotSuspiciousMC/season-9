@@ -2,6 +2,7 @@
     "replace": false,
     "origins": [
         "tns:hobbit",
-        "tns:dwarf"
+        "tns:dwarf",
+        "tns:half_giant"
     ]
 }

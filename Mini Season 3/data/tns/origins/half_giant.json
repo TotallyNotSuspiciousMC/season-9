@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "tns:big_boned",
+        "tns:clumsy",
+        "tns:thick_skin",
+        "tns:rocky_arms",
+        "origins:carnivore",
+        "tns:too_big"
+    ],
+    "icon": {
+        "item": "minecraft:cobblestone"
+    },
+    "order": 0,
+    "impact": 2,
+    "name": "Half Giant",
+    "description": "Half-giant and half-man, you are much taller and stronger than the average person, but also a bit dumber."
+}
