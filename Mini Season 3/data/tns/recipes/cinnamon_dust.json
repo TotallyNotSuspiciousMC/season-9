@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+        {
+            "item": "festive_delight:festive_delight"
+        }
+    ],
+    "result": [
+        {
+            "count": 4,
+            "item": "festive_delight:festive_powder"
+        }
+    ],
+    "tool": {
+        "tag": "c:tools/knives"
+    }
+}
