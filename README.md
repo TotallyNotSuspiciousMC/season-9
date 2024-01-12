@@ -1,11 +1,11 @@
-# Totally Not Suspicious Season 9 Custom Datapacks
+# Totally Not Suspicious Season Custom and Resource Packs
 
 This repo contains three custom datapacks and one resource pack:
 
-* **Season 9 Data**: Basic data changes such as recipes, loot tables, and advancements.
-* **Season 9 Worldgen**: Changes to world generation such as new dimensions.
+* **Season Data**: Basic data changes such as recipes, loot tables, and advancements.
+* **Season Worldgen**: Changes to world generation such as new dimensions.
 * **Swampier Swamps**: Specific worldgen changes for swamps.
-* **Season 9 Resource Pack**: Custom item textures and models for Season 9.
+* **Season Resource Pack**: Custom item textures and models.
 
 # Lantern Load
 
