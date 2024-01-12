@@ -1,0 +1,1 @@
+give @s name_tag{display:{Name:'{"text":"Super Name Tag","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"Redeemable to TheDeathlyCow to redeem 1 customized item name"}']},IsCustomNameTag:1b} 1

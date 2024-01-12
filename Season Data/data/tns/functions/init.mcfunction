@@ -1,6 +1,6 @@
 # First time setup function
 
-tellraw @a[gamemode=creative] [{"text":"Performing first time set up for TNS 9 data...","color": "green"}]
+tellraw @a[gamemode=creative] [{"text":"Performing first time set up for TNS data...","color": "green"}]
 
 scoreboard objectives add tns.gets_free_shulker dummy
 
