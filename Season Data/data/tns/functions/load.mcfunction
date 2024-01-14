@@ -4,6 +4,7 @@ scoreboard objectives add tns.const dummy
 scoreboard objectives add tns.vars dummy
 scoreboard objectives add tns.raid_cooldown dummy
 scoreboard objectives add tns.raid_cooldown_display dummy
+scoreboard objectives add tns.super_tags_given dummy
 
 scoreboard players add init tns.vars 1
 execute if score init tns.vars matches 1 run function tns:init
