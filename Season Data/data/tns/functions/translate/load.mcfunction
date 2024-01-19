@@ -1,7 +1,7 @@
 # loads translation styles
 
 
-data modify storage tns.translate en_us.shulker_give_message set value '[{"text":"[TheDeathlyCow] ", "color":"dark_purple"},{"text":"Here is your free shulker box, thanks for participating in the Season 8 Data Survey!", "color":"aqua"}]'
+data modify storage tns.translate en_us.shulker_give_message set value '[{"text":"Thanks for joining the Season 11 Launch! Have some free saplings!", "color":"aqua"}]'
 data modify storage tns.translate en_us.hat.crown.name set value '[{"text":"Donor Crown","color":"gold","italic":false}]'
 data modify storage tns.translate en_us.hat.crown.lore set value '[{"text":"Thank you for your support!","color":"yellow"}]'
 data modify storage tns.translate en_us.hat.cowboy_hat.name set value '[{"text":"Cowboy Hat","color":"gold","italic":false}]'
