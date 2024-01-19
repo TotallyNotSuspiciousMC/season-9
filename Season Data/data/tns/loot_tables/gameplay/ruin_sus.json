@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "tns:super_name_tag"
+                    "name": "tns:gameplay/super_name_tag"
                 },
                 {
                     "type": "minecraft:item",
@@ -16,8 +16,8 @@
                     "name": "minecraft:diamond"
                 },
                 {
-                    "type": "minecraft:tag",
-                    "name": "minecraft:saplings"
+                    "type": "minecraft:item",
+                    "name": "minecraft:mangrove_propagule"
                 }
             ]
         }
