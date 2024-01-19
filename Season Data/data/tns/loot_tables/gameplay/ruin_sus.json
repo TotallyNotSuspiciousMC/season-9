@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "tns:super_name_tag"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:tag",
+                    "name": "minecraft:saplings"
+                }
+            ]
+        }
+    ]
+}
