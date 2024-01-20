@@ -9,6 +9,12 @@
                 "custom_model_data": 1
             },
             "model": "tns:item/blinking_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "tns:item/ruins/mossy_sword"
         }
     ]
 }
