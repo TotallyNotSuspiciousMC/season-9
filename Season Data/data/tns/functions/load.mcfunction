@@ -13,4 +13,6 @@ scoreboard players set tns load.status 1
 scoreboard players set #20 tns.const 20
 scoreboard players set RAID_COOLDOWN tns.const 24000
 
+data modify storage tns:donor staff_ids set value [{name:"vSharpies"}, {name:"Scorrpine"}, {name:"Atalus"}, {name:"LeeMohr"}, {name:"Suth1"}, {name:"aPhoton"}, {name:"Herbu_"}, {name:"TheDeathlyCow"}, {name:"LumonJuce"}, {name:"Meg4tron092"}, {name:"R03ERT3"}, {name:"Amyrinya"}, {name:"anderz21"}, {name:"Beanjamin44"}]
+
 schedule function tns:tick 1t replace
