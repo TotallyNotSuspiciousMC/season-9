@@ -17,6 +17,12 @@
             "conditions": {
                 "location": [
                     {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "biome": "tns.wg:weeping_deltas"
+                        }
+                    },
+                    {
                         "condition": "minecraft:block_state_property",
                         "block": "minecraft:lectern",
                         "properties": {

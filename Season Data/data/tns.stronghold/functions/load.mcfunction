@@ -1,0 +1,4 @@
+
+team add stronghold_players
+team modify stronghold_players friendlyFire false
+team modify stronghold_players seeFriendlyInvisibles true
