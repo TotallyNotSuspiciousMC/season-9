@@ -3,6 +3,7 @@
     "pools": [
         {
             "rolls": 1,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:alternatives",
@@ -32,5 +33,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:gameplay/cat_morning_gift"
 }
