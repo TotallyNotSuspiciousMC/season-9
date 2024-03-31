@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/end_city",
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "start_pool": "tns.wg:easter_eggs",
+    "size": 1,
+    "start_height": {
+        "absolute": 64
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

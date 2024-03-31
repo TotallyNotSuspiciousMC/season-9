@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "tns.wg:end_easter_eggs",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1987861560,
+        "spread_type": "triangular",
+        "spacing": 36,
+        "separation": 12
+    }
+}
