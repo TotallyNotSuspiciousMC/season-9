@@ -9,6 +9,15 @@
                 "location": "tns.wg:easter/rabbit_egg",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "tns.wg:easter/breeze_egg",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }
