@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 60,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;-1059486911,-1871885820,-1311224596,1015123636],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTkwYWExMzJiYzM3YzY1ZTY2NGFlMDMzNmUzNzYzMDRlZmFhNGQ0NTk0YjY3OGQ0ODkxYjMxOTZmOTRhMTRiZSJ9fX0=\"}]}},display:{Name:'{\"text\":\"\",\"extra\":[{\"text\":\"Common Easter Egg\",\"italic\":false,\"color\":\"aqua\"}]}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 39,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;751651081,-482983817,-1274350928,-997317725],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3ZGYyM2EzN2E5ZGRmY2QzMTMxOGJmOWU4OGJhMjVhZGJkNjUyYjdhNjExZmE2NzFkYmJjOGM5MzFlNTVhIn19fQ==\"}]}},display:{Name:'{\"text\":\"\",\"extra\":[{\"text\":\"Rare Easter Egg\",\"italic\":false,\"color\":\"light_purple\"}]}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;803947639,-1174845285,-1913626770,895194041],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI0YWZiMDExMzUzYWZjNDUyNzI5NWNiMjMxNzhlMTViZTExM2I0ZWJhMTU5OGM0MGExNzRmZWVlZTc3OWYwNiJ9fX0=\"}]}},display:{Name:'{\"text\":\"\",\"extra\":[{\"text\":\"Golden Easter Egg\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
