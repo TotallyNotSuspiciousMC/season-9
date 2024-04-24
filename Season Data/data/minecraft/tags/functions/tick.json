@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tns.stronghold:tick"
+        "tns.stronghold:tick",
+        "tns:is_wearing_rabbit_boots"
     ]
 }
