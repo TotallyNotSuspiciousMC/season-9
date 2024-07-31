@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "more_mob_heads:entities/vindicator"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:entities/pillager"
+}
