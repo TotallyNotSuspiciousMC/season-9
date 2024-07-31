@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "vSharpies"
+                }
+            }
+        },
+        "title": "Was that Sharp?",
+        "description": "Get struck by lightning"
+    },
+    "parent": "minecraft:adventure/lightning_rod_with_villager_no_fire",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:lightning_strike",
+            "conditions": {
+                "lightning": {
+                    "distance": {
+                        "absolute": {
+                            "max": 3
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 3
+    }
+}
